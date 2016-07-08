@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -14,4 +14,95 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="home_rad_btn">
+        <item name="android:button">@null</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_rad_btn_size</item>
+    </style>
+
+    <style name="adapter_user_head_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/user_head_size</item>
+        <item name="android:textColor">@color/user_head_text_color</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Holo.DialogWhenLarge">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="video_btn_style">
+        <item name="android:layout_width">@dimen/video_btn_width</item>
+        <item name="android:layout_height">@dimen/video_btn_width</item>
+        <item name="android:contentDescription">@null</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="notice_dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+    <style name="RushBuyCountDownTimerViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:text">0</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="setting_text_base">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/setting_text_size</item>
+    </style>
+    <style name="setting_sign_text_style1" parent="@style/setting_text_base">
+        <item name="android:textColor">@color/setting_text_color1</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="setting_sign_text_style2" parent="@style/setting_text_base">
+        <item name="android:textColor">@color/setting_text_color2</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="setting_info_text_style" parent="@style/setting_sign_text_style2">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="setting_item_base_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">@dimen/padding_noraml</item>
+        <item name="android:paddingRight">@dimen/padding_noraml</item>
+    </style>
+    <style name="setting_item_style" parent="setting_item_base_style">
+        <item name="android:background">@drawable/setting_item_bg</item>
+    </style>
+    <style name="theme_select_img_style">
+        <item name="android:layout_width">@dimen/theme_img_size2</item>
+        <item name="android:layout_height">@dimen/theme_img_size2</item>
+        <item name="android:background">@drawable/theme_select</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="theme_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/theme_text_size</item>
+        <item name="android:textColor">@color/setting_text_color2</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="anim_popup_dir">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
 </resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/login_layout"
+    android:background="@color/dialog_bg">
+
+    <LinearLayout
+        android:layout_width="286dp"
+        android:layout_height="439dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/edit_dialog_bg"
+        android:id="@+id/vote_linearLayout"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/login"
+            android:textColor="@color/login_color"
+            android:textSize="@dimen/login_size" />
+
+        <TextView
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/login_info"
+            android:textColor="@color/login_info_color"
+            android:textSize="@dimen/login_info_size" />
+        <EditText
+            android:id="@+id/input_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="53dp"
+            android:layout_marginLeft="40dp"
+            android:background="@android:color/transparent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/input_phone_psw_color"
+            android:hint="@string/input_phone"
+            android:textColor="@color/phone_psw_input_color"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/login_image_size" />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:background="@color/login_image"/>
+        <EditText
+            android:id="@+id/input_psw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:layout_marginLeft="40dp"
+            android:textColorHint="@color/input_phone_psw_color"
+            android:background="@android:color/transparent"
+            android:password="true"
+            android:hint="@string/input_psw"
+            android:textColor="@color/phone_psw_input_color"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/login_image_size" />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:background="@color/login_image"/>
+        <RelativeLayout
+            android:id="@+id/login_image"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="33dp"
+            android:background="@drawable/login_image_bg">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:textSize="@dimen/login_image_size"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/register_image"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/register"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="@dimen/login_image_size"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

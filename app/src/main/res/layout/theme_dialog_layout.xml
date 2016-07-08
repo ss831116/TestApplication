@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7f000000"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit_dialog_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/theme_color1"
+                android:layout_width="@dimen/theme_img_size1"
+                android:layout_height="@dimen/theme_img_size1"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/theme_circle_red"
+                android:contentDescription="@null" />
+
+            <ImageView
+                android:id="@+id/theme_select1"
+                style="@style/theme_select_img_style"
+                android:layout_alignBottom="@+id/theme_color1"
+                android:layout_alignRight="@+id/theme_color1"
+                android:contentDescription="@null" />
+
+            <TextView
+                style="@style/theme_text_style"
+                android:text="@string/setting_red" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/theme_color2"
+                android:layout_width="@dimen/theme_img_size1"
+                android:layout_height="@dimen/theme_img_size1"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/theme_circle_green"
+                android:contentDescription="@null" />
+
+            <ImageView
+                android:id="@+id/theme_select2"
+                style="@style/theme_select_img_style"
+                android:layout_alignBottom="@+id/theme_color2"
+                android:layout_alignRight="@+id/theme_color2"
+                android:contentDescription="@null" />
+
+            <TextView
+                style="@style/theme_text_style"
+                android:text="@string/setting_green" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/theme_color3"
+                android:layout_width="@dimen/theme_img_size1"
+                android:layout_height="@dimen/theme_img_size1"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/theme_circle_yellow"
+                android:contentDescription="@null" />
+
+            <ImageView
+                android:id="@+id/theme_select3"
+                style="@style/theme_select_img_style"
+                android:layout_alignBottom="@+id/theme_color3"
+                android:layout_alignRight="@+id/theme_color3"
+                android:contentDescription="@null" />
+
+            <TextView
+                style="@style/theme_text_style"
+                android:text="@string/setting_yellow" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/theme_color4"
+                android:layout_width="@dimen/theme_img_size1"
+                android:layout_height="@dimen/theme_img_size1"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/theme_circle_pur"
+                android:contentDescription="@null" />
+
+            <ImageView
+                android:id="@+id/theme_select4"
+                style="@style/theme_select_img_style"
+                android:layout_alignBottom="@+id/theme_color4"
+                android:layout_alignRight="@+id/theme_color4"
+                android:contentDescription="@null" />
+
+            <TextView
+                style="@style/theme_text_style"
+                android:text="@string/setting_purple" />
+        </RelativeLayout>
+
+        <!--<android.support.v7.widget.RecyclerView
+            android:id="@+id/theme_recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:scrollbars="none" />-->
+    </LinearLayout>
+</RelativeLayout>

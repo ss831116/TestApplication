@@ -3,4 +3,64 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="title_bg">#fe4e4e</color>
+    <!--<color name="title_bg">#26232E</color>-->
+
+    <color name="title_color">#333333</color>
+    <color name="video_list_title_bg">#26232E</color>
+    <color name="transparent">#00000000</color>
+    <color name="can_upload_paint_color">#ccffffff</color>
+    <color name="listview_divider_color">#f2f2f2</color>
+    <color name="divider_color">#80434049</color>
+
+    <color name="rad_group_bg">#f8f8f8</color>
+    <color name="rad_btn_text_pressed">#FB4747</color>
+    <color name="rad_btn_text_not_press">#787878</color>
+    <color name="user_icon_board_color">#c9cacb</color>
+
+    <!-- user-->
+    <color name="user_head_text_color">#ffffff</color>
+    <color name="user_item_text_color1">#1E1E1E</color>
+    <color name="user_item_text_color2">#969696</color>
+    <color name="comment_bg">#f8f8f8</color>
+    <color name="comment_user_name_color">#787878</color>
+    <color name="comment_content_color">#1e1e1e</color>
+    <color name="comment_time_color">#a0a0a0</color>
+    <color name="comment_btn_pre_color">#f6b557</color>
+    <color name="comment_btn_color">#ffc167</color>
+    <!-- dialog -->
+    <color name="dialog_text_color1">#1E1E1E</color>
+    <color name="dialog_text_color2">#787878</color>
+    <color name="dialog_bg">#5f000000</color>
+    <color name="edit_btn_bg">#fcd65f</color>
+    <color name="edit_btn_text_color">#26232f</color>
+    <!-- vote-->
+    <color name="vote_item_text1">#969696</color>
+    <color name="vote_item_text2">#1E1E1E</color>
+    <color name="vote_item_time_color">#505050</color>
+    <color name="vote_point_color1">#fe4e4e</color>
+    <color name="vote_point_color2">#f6b557</color>
+    <color name="vote_friend_color">#50c78b</color>
+    <color name="round_corner_progress_bar_background_default">#E0E0E0</color>
+    <color name="round_corner_progress_bar_progress_default">#FB4747</color>
+    <color name="round_corner_progress_bar_secondary_progress_default">@android:color/transparent</color>
+    <!-- login -->
+    <color name="login_color">#1E1E1E</color>
+    <color name="login_info_color">#787878</color>
+    <color name="login_image_bg_color">#ffc167</color>
+    <color name="input_phone_psw_color">#969696</color>
+    <color name="login_image">#f2f2f2</color>
+    <color name="get_psw_color">#22abfa</color>
+    <color name="phone_psw_input_color">#1e1e1e</color>
+    <!-- setting-->
+    <color name="setting_bg">#f2f2f2</color>
+    <color name="setting_text_color1">#1e1e1e</color>
+    <color name="setting_text_color2">#787878</color>
+    <color name="setting_pressed_bg">#f8f8f8</color>
+    <color name="theme_red">#fe4e4e</color>
+    <color name="theme_green">#50c88b</color>
+    <color name="theme_yellow">#f6b557</color>
+    <color name="theme_purple">#876ef0</color>
 </resources>

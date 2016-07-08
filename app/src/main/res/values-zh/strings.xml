@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">愿望成真</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- home-->
+    <string name="price_notice">获奖公示</string>
+    <string name="goto_vote">我要投票</string>
+    <string name="person">个人中心</string>
+    <!-- widget -->
+    <string name="header_hint_refresh_normal">下拉可以刷新</string>
+    <string name="header_hint_refresh_ready">愿望成真</string>
+    <string name="header_hint_refresh_loading">拼了个命加载中...</string>
+    <string name="header_hint_refresh_time">时间：</string>
+    <string name="footer_hint_load_normal">加载更多</string>
+    <string name="footer_hint_load_ready">愿望成真</string>
+    <string name="no_videos">没有更多内容</string>
+
+    <!-- user fragment-->
+    <string name="user_votes">票数:</string>
+    <string name="user_friend_votes">亲友团贡献票:</string>
+    <string name="user_points">勤劳积分:</string>
+    <string name="comment">评论</string>
+    <string name="psw_error">密码不能为空</string>
+    <string name="comment_init_text">请输入</string>
+    <string name="phone_error">账户不能为空</string>
+    <string name="register">注册</string>
+    <!-- dialog-->
+    <string name="upload_success_text1">您的视频已成功投递</string>
+    <string name="upload_success_text2">赶快去拉票把</string>
+    <string name="upload_success_text3">发送到微信好友</string>
+    <string name="upload_fail_text">您的视频上传失败</string>
+    <string name="delete_video">删除视频</string>
+    <string name="delete">删除</string>
+    <string name="sure_to_delete_video">确定删除这段视频吗?</string>
+    <string name="reupload">重新上传</string>
+    <string name="upload_success">上传成功</string>
+    <!-- vote-->
+    <string name="vote_username">用户名:</string>
+    <string name="vote_rate">得票率:</string>
+    <string name="vote_rate_for_little">曲高和寡概率为:</string>
+    <string name="vote_rate_for_busy">勤劳积分获奖概率为:</string>
+    <string name="vote">投票</string>
+    <string name="vote_number">编号:</string>
+    <string name="vote_time_last">距离下一场开始倒计时:</string>
+    <string name="vote_for_self">为自己投票</string>
+    <string name="vote_for_help">求助亲友团</string>
+    <!-- login-->
+    <string name="login">登录</string>
+    <string name="login_info">请您输入手机号完成登录验证，以便获奖之后我们的工作人员能够及时联系到您，登录之后请在个人页面设置其他用户信息。</string>
+    <string name="input_phone">请输入电邮/区号+手机号</string>
+    <string name="input_psw">请输入密码</string>
+    <string name="get_psw">获取验证码</string>
+    <string name="not_login">您还没有登录，请去登录</string>
+    <string name="error_login">用户名或密码错误</string>
+    <!-- recorder-->
+    <string name="uploading_video">您有视频在上传中，请稍后再试</string>
+    <string name="vote_success">投票成功</string>
+    <string name="rule_info">规则</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_fail">登录失败</string>
+    <!--showtime-->
+    <string name="seconds">秒前</string>
+    <string name="minutes">分钟前</string>
+    <string name="hours">小时前</string>
+    <string name="days">天前</string>
+    <string name="months">月前</string>
+    <string name="years">年前</string>
+
+    <!-- Just use standard Pull Down String when pulling up. These can be set for languages which require it -->
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="coming_soon">预告</string>
+    <!-- setting-->
+    <string name="setting">设置</string>
+    <string name="setting_head">头像</string>
+    <string name="setting_name">昵称</string>
+    <string name="setting_tel">手机号</string>
+    <string name="setting_mail">邮箱</string>
+    <string name="setting_choose_theme">选择主题</string>
+    <string name="setting_version">版本号</string>
+    <string name="setting_contact">联系我们</string>
+    <string name="login_out">退出登录</string>
+    <string name="confirm_to_login_out">是否退出登录?</string>
+    <string name="not_bind">未绑定</string>
+    <string name="setting_red">中国红</string>
+    <string name="setting_green">翡翠绿</string>
+    <string name="setting_yellow">金盏黄</string>
+    <string name="setting_purple">紫藤罗</string>
+    <string name="setting_bind_mail">绑定邮箱</string>
+    <string name="confirm">确认</string>
+    <string name="input_type_error">不能输入特殊符号</string>
+    <string name="confirm_success">修改成功</string>
+    <string name="confirm_fail">修改失败</string>
+    <string name="date">期</string>
+    <string name="current_get_vote_count">本期得票数 :</string>
+    <string name="current_industrious_points">本期勤劳积分 :</string>
+    <string name="join_match_video"> 参赛视频</string>
+    <string name="vote_count_not_enough">您的可投票数不足</string>
+</resources>

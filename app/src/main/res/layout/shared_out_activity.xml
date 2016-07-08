@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/share_relativeLayout"
+    android:background="@color/dialog_bg">
+
+    <LinearLayout
+        android:id="@+id/share_linearLayout"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/edit_dialog_bg"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="40dp"
+            android:contentDescription="@null"
+            android:src="@drawable/success" />
+
+        <TextView
+            android:id="@+id/upload_success_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/upload_success_text1"
+            android:textColor="@color/dialog_text_color1"
+            android:textSize="@dimen/dialog_text_size1" />
+
+        <TextView
+            android:id="@+id/get_vote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/upload_success_text2"
+            android:textColor="@color/dialog_text_color1"
+            android:textSize="@dimen/dialog_text_size1" />
+
+        <ImageView
+            android:id="@+id/share_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@null"
+            android:src="@drawable/share_wechat" />
+
+        <TextView
+            android:id="@+id/sent_friends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/upload_success_text3"
+            android:textColor="@color/dialog_text_color2"
+            android:textSize="@dimen/dialog_text_size2" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingLeft="@dimen/padding_noraml"
+    android:paddingRight="@dimen/padding_noraml"
+    >
+
+    <ImageView
+        android:id="@+id/commnet_user_icon"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="13dp"
+        android:contentDescription="@null"
+        android:src="@drawable/map_icon_user" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:layout_marginTop="21dp"
+        android:layout_toEndOf="@+id/commnet_user_icon"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/comment_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="111111"
+                android:textColor="@color/comment_user_name_color"
+                android:textSize="@dimen/comment_user_text_size" />
+
+            <TextView
+                android:id="@+id/comment_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="111111"
+                android:textColor="@color/comment_time_color"
+                android:textSize="@dimen/comment_time_text_size" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/comment_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:text="111111"
+            android:textColor="@color/comment_content_color"
+            android:textSize="@dimen/comment_user_text_size" />
+    </LinearLayout>
+</RelativeLayout>

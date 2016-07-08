@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/comment_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_bar_layout" />
+
+    <com.yuyu.android.wct.widget.XListView
+        android:id="@+id/comment_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#f8f8f8"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="@dimen/title_height"
+        android:layout_marginBottom="66dp"
+        android:footerDividersEnabled="false"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/comment_bg"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/comment_margin"
+        android:paddingLeft="@dimen/padding_noraml"
+        android:paddingRight="@dimen/padding_noraml"
+        android:paddingTop="@dimen/comment_margin">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/comment_margin"
+            android:layout_weight="1"
+            android:background="@drawable/edit_dialog_bg"
+            android:hint="@string/comment_init_text"
+            android:paddingLeft="6dp"
+            android:textColor="@color/comment_content_color"
+            android:textColorHint="@color/user_item_text_color2"
+            android:textSize="@dimen/comment_text_size" />
+
+        <Button
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/comment_text_btn_bg"
+            android:gravity="center"
+            android:text="@string/comment"
+            android:textColor="@color/white"
+            android:textSize="@dimen/comment_text_size" />
+    </LinearLayout>
+</RelativeLayout>
