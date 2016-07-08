@@ -49,12 +49,7 @@ public class DreamAchieveApplication extends Application  implements VolleyHttpR
     public FrameworkInstance getFrame() {
         return frame;
     }
-    /**
-       * 加入查看内存泄露工程，发布时会删除此模块
-       * @author Bernie
-       * create at 2016/4/12 11:37
-    */
-
+   
     public void onCreate() {
         super.onCreate();
         queues = Volley.newRequestQueue(getApplicationContext());
